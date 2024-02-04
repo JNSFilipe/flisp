@@ -1,3 +1,3 @@
-hello_world:
+repl:
 	mkdir -p build
-	gcc -std=c99 -Wall hello_world.c -o build/hello_world
+	gcc -std=c99 -Wall repl.c -ledit -o build/repl
