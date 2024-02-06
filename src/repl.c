@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
   printf("Press Ctrl+C to Exit \n\n");
 
   // Infinite loop
-  while(1) {
+  while (1) {
 
     // Read line
     char *input = readline("flisp> ");
